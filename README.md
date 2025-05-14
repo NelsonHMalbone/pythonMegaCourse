@@ -16,3 +16,12 @@ instead of doing the todo list project, setting up to do my own some what of a s
 for a game that i will be getting here so. many inputs to fill in in to track. 
 
 we installed the input options as the course is doing.
+
+#### 05-14
+working on storing the inputs into a list with [] 
+ex: 
+    user_prompt = 'Enter a todo'
+    todo1 = input(user_prompt)
+    todo2 = input(user_prompt)
+    todo3 = input(user_prompt)
+    todos = [todo1, todo2, ]
