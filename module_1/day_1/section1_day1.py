@@ -9,6 +9,7 @@ category_code = input("Enter Category code: ")
 item_delivering = input("Enter the item to be deliver: ")
 time_bonus_input = input('Enter time bonus: ')
 train_value_input = input("Enter train value: ")
+train_length_input = input("Enter train length: ")
 
 # storing user input in a list
 
