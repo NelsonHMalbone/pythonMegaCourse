@@ -8,3 +8,11 @@ im going to be building a app for a game called Derail Valley its a pc game abou
 to different parts of the map. 
 
 This day is going over some basic of python
+
+#### 05-10
+going over the basics of python. basic inputs in such
+
+instead of doing the todo list project, setting up to do my own some what of a simular project 
+for a game that i will be getting here so. many inputs to fill in in to track. 
+
+we installed the input options as the course is doing.
