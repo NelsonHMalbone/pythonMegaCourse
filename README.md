@@ -32,3 +32,4 @@ start section 2 working with while and new python methods
 creating a list outside of the while loop to store input
 using dir(str) in console will show you all the methods for str data type
 using the help("example".capitalize)
+finshed day 2 starting day 3
