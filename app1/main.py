@@ -18,11 +18,11 @@ while True:
     train_value_input = input("Enter train value: ")
     category_list.append(train_value_input)
 
-    train_length_input = input("Enter train length: ")
-    category_list.append(train_value_input)
-
     train_mass_input = input("Enter train mass: ")
     category_list.append(train_mass_input)
+
+    train_length_input = input("Enter train length: ")
+    category_list.append(train_length_input)
 
     license_requirements = input("Enter licenses require: ")
     category_list.append(license_requirements)
