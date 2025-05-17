@@ -1,8 +1,3 @@
-# 05-10
-# getting user input
-# anything inside the () is known as the argument
-# print and input are functions
-
 print("Derail Vally Run Log Workbook")
 category_input = input("Enter the Category here: ")
 category_code = input("Enter Category code: ")
