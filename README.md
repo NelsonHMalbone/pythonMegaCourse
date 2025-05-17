@@ -28,3 +28,5 @@ ex:
 
 #### 05-17
 bonus example folder contains bonus code examples for each day small additional projects
+start section 2 working with while and new python methods
+creating a list outside of the while loop to store input

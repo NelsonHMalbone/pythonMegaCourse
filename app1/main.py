@@ -1,4 +1,7 @@
 print("Derail Vally Run Log Workbook")
+
+category_list = []
+
 while True:
     category_input = input("Enter the Category here: ")
     category_code = input("Enter Category code: ")
@@ -9,11 +12,3 @@ while True:
     train_mass_input = input("Enter train mass: ")
     license_requirements = input("Enter licenses require: ")
 
-# storing user input in a list
-    category_list = [category_input,
-                 category_code,
-                 item_delivering,
-                 time_bonus_input,
-                 train_value_input,
-                 train_length_input]
-    print(category_list)
