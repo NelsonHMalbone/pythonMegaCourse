@@ -30,3 +30,4 @@ ex:
 bonus example folder contains bonus code examples for each day small additional projects
 start section 2 working with while and new python methods
 creating a list outside of the while loop to store input
+using dir(str) in console will show you all the methods for str data type
