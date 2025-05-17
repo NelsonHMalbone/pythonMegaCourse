@@ -25,3 +25,6 @@ ex:
     todo2 = input(user_prompt)
     todo3 = input(user_prompt)
     todos = [todo1, todo2, todo3] data types for list to store inputs
+
+#### 05-17
+bonus example folder contains bonus code examples for each day small additional projects
