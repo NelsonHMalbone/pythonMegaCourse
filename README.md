@@ -39,4 +39,6 @@ starting to work on day 3
 main focus is using match case and for loops
 
 to add a to new run or to view all runs.
-first ask user to add a new run or to view 
+first ask user to add a new run or to view
+
+to stop a program use the "break" 
