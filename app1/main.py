@@ -13,16 +13,16 @@ while True:
             category_list.append(category_input)
 
             category_code = input("Enter Category code: ")
-            category_list.append(category_code)
+            category_list.append(category_code.capitalize())
 
             item_delivering = input("Enter the item to be deliver: ")
             category_list.append(item_delivering)
 
             source_company = input("Enter the source company: ")
-            category_list.append(source_company)
+            category_list.append(source_company.title())
 
             receiving_company = input("Enter the receiving company: ")
-            category_list.append(receiving_company)
+            category_list.append(receiving_company.title())
 
             time_bonus_input = input("Enter time bonus: ")
             category_list.append(time_bonus_input)
@@ -44,7 +44,7 @@ while True:
 
         case "show":
             for item in category_list:
-                print(category_list)
+                print(item)
 
         case "exit":
             break
