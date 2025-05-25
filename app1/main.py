@@ -3,7 +3,7 @@ print("Derail Vally Run Log Workbook")
 category_list = []
 
 while True:
-    user_action = input("Type add or show: ")
+    user_action = input("Type add, show, exit: ")
 
     match user_action:
 
@@ -41,3 +41,8 @@ while True:
 
         case "show":
             print(category_list)
+
+        case "exit":
+            break
+
+print("Goodbye")
