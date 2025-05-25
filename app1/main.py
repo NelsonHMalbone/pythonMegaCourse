@@ -3,28 +3,41 @@ print("Derail Vally Run Log Workbook")
 category_list = []
 
 while True:
-    category_input = input("Enter the Category here: ")
-    category_list.append(category_input)
+    user_action = input("Type add or show: ")
 
-    category_code = input("Enter Category code: ")
-    category_list.append(category_code)
+    match user_action:
 
-    item_delivering = input("Enter the item to be deliver: ")
-    category_list.append(item_delivering)
+        case "add":
 
-    time_bonus_input = input("Enter time bonus: ")
-    category_list.append(time_bonus_input)
+            category_input = input("Enter the Category here: ")
+            category_list.append(category_input)
 
-    train_value_input = input("Enter train value: ")
-    category_list.append(train_value_input)
+            category_code = input("Enter Category code: ")
+            category_list.append(category_code)
 
-    train_mass_input = input("Enter train mass: ")
-    category_list.append(train_mass_input)
+            item_delivering = input("Enter the item to be deliver: ")
+            category_list.append(item_delivering)
 
-    train_length_input = input("Enter train length: ")
-    category_list.append(train_length_input)
+            source_company = input("Enter the source company: ")
+            category_list.append(category_code)
 
-    license_requirements = input("Enter licenses require: ")
-    category_list.append(license_requirements)
+            receiving_company = input("Enter the receiving company: ")
+            category_list.append(category_code)
 
-    print(category_list)
+            time_bonus_input = input("Enter time bonus: ")
+            category_list.append(time_bonus_input)
+
+            train_value_input = input("Enter train value: ")
+            category_list.append(train_value_input)
+
+            train_mass_input = input("Enter train mass: ")
+            category_list.append(train_mass_input)
+
+            train_length_input = input("Enter train length: ")
+            category_list.append(train_length_input)
+
+            license_requirements = input("Enter licenses require: ")
+            category_list.append(license_requirements)
+
+        case "show":
+            print(category_list)

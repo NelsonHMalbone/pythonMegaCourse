@@ -33,3 +33,10 @@ creating a list outside of the while loop to store input
 using dir(str) in console will show you all the methods for str data type
 using the help("example".capitalize)
 finshed day 2 starting day 3
+
+#### 05-24 
+starting to work on day 3 
+main focus is using match case and for loops
+
+to add a to new run or to view all runs.
+first ask user to add a new run or to view 
