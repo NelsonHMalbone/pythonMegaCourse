@@ -4,7 +4,7 @@ category_list = []
 
 while True:
     user_action = input("Type add, show, exit: ")
-
+    user_action = user_action.strip() # strips uncessory white spaces
     match user_action:
 
         case "add":
@@ -49,4 +49,6 @@ while True:
         case "exit":
             break
 
+        case unknown_command: # if user does not enter a valid command
+            print("please enter a vaild command")
 print("Goodbye")
