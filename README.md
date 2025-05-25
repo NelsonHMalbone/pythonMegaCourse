@@ -42,3 +42,5 @@ to add a to new run or to view all runs.
 first ask user to add a new run or to view
 
 to stop a program use the "break" 
+
+to get rid of [] and '' would do a statement of for item in category_list

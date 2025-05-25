@@ -19,10 +19,10 @@ while True:
             category_list.append(item_delivering)
 
             source_company = input("Enter the source company: ")
-            category_list.append(category_code)
+            category_list.append(source_company)
 
             receiving_company = input("Enter the receiving company: ")
-            category_list.append(category_code)
+            category_list.append(receiving_company)
 
             time_bonus_input = input("Enter time bonus: ")
             category_list.append(time_bonus_input)
@@ -39,8 +39,12 @@ while True:
             license_requirements = input("Enter licenses require: ")
             category_list.append(license_requirements)
 
+            base_amount_total = input("Enter the dollar amount to be received: ")
+            category_list.append(base_amount_total)
+
         case "show":
-            print(category_list)
+            for item in category_list:
+                print(category_list)
 
         case "exit":
             break
