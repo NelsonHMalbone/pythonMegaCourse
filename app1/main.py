@@ -49,6 +49,4 @@ while True:
         case "exit":
             break
 
-        case unknown_command: # if user does not enter a valid command
-            print("please enter a vaild command")
 print("Goodbye")
