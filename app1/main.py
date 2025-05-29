@@ -42,7 +42,7 @@ while True:
             base_amount_total = input("Enter the dollar amount to be received: ")
             category_list.append(base_amount_total)
 
-        case "show":
+        case "show": # | "display"
             for item in category_list:
                 print(item)
 

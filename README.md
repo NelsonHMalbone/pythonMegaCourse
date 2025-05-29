@@ -46,3 +46,9 @@ to stop a program use the "break"
 to get rid of [] and '' would do a statement of for item in category_list
 so using the strip method it will strip whitespaces and such 
 this also does not change the variables white spaces
+
+#### 05-29
+finishing up the vod 33 of section 3 day 3.
+with the case 'show' you can use the "|" and type in another word like 'display'
+so that bitwise or another word is operator will match so that oine will be true
+dont need another case or if statement with the same line of code 
