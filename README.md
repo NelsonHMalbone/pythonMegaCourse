@@ -66,5 +66,6 @@ working with list-indexing and tuples
  
 so had to change the for loop from 
 for item in items do this 
-to using for key, value in category_list.items()
+to using for key, value in category_data.items()
 this approach keeps the inputs label and easy to display and manage
+did have to add a tuple to capture all the infomation to get and add titles of what each section was
