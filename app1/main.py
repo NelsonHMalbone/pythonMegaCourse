@@ -3,7 +3,7 @@ print("Derail Vally Run Log Workbook")
 category_list = []
 
 while True:
-    user_action = input("Type add, show, exit: ")
+    user_action = input("Type add, show, edit ,exit: ")
     user_action = user_action.strip() # strips uncessory white spaces
     match user_action:
 
@@ -43,8 +43,12 @@ while True:
             category_list.append(base_amount_total)
 
         case "show": # | "display"
-            for item in category_list:
-                print(item)
+            print("\n---Show Section---")
+            for key, value in category_list:
+                print(f'{key}: {value}')
+
+        case "exit": # allows user to edit contracts
+            pass
 
         case "exit":
             break

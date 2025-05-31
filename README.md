@@ -2,6 +2,11 @@
 
 ### Module 1
 
+### todos
+- Add print statements to show what each item is in list 
+- add date of contract
+- add contract num for each run
+
 #### Day 1
 Day 1 is a building a todo app but instead of building a todo app
 im going to be building a app for a game called Derail Valley its a pc game about hauling frieght 
@@ -52,3 +57,14 @@ finishing up the vod 33 of section 3 day 3.
 with the case 'show' you can use the "|" and type in another word like 'display'
 so that bitwise or another word is operator will match so that oine will be true
 dont need another case or if statement with the same line of code 
+
+#### 05-31
+finished up section 3 day 3 
+worked with more for loops in the the way they interate over a list and work
+today we are starting on section 4 day 4
+working with list-indexing and tuples
+ 
+so had to change the for loop from 
+for item in items do this 
+to using for key, value in category_list.items()
+this approach keeps the inputs label and easy to display and manage
