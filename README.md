@@ -4,8 +4,14 @@
 
 ### todos
 - Add print statements to show what each item is in list 
-- add date of contract
-- add contract num for each run
+- add date of contract/batch
+- add maintance part (for when user gets to maintaining own units)
+- add contract num for each run (06-07 completed)
+- add a calc to have user enter how many (mainly used for when user gets to adding length indicator and such)
+  - trains to be used like d2s d6s slugs and such
+  - input weight and length of each contract
+  - prints out total weight and lenght including the trains being used
+- will need to add a batch so that if user is doing multiple jobs in one trip it will show in one whole group
 
 #### Day 1
 Day 1 is a building a todo app but instead of building a todo app
@@ -69,3 +75,8 @@ for item in items do this
 to using for key, value in category_data.items()
 this approach keeps the inputs label and easy to display and manage
 did have to add a tuple to capture all the infomation to get and add titles of what each section was
+
+#### 06-07
+worked on restructing the data and the list and placed them inside the added section
+in the all categories will capture everything from the category data, so tht the 
+the user can choice which entry to pick 
