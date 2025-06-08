@@ -1,7 +1,6 @@
 print("Derail Vally Run Log Workbook")
 
-category_list = []
-category_data = {}
+all_categories = [] # list to hold each round of the category data
 
 while True:
     user_action = input("Type add, show, edit ,exit: ")
@@ -9,6 +8,9 @@ while True:
     match user_action:
 
         case "add":
+            category_list = [] # Dictionary for one round of the input
+            category_data = {} # optional if still wanting the list
+
 
             category_input = input("Enter the Category here: ")
             category_list.append(category_input)
@@ -54,10 +56,14 @@ while True:
             category_list.append(base_amount_total)
             category_data["Base Amount: "] = base_amount_total
 
+            all_categories.append(category_data) # add this to round's data to the master list
+
         case "show": # | "display"
-            print("\n---Show Section---")
-            for key, value in category_data.items():
-                print(f'{key}: {value}')
+            print("\n---All Entries Categories ---")
+            for idx, entry in enumerate(all_categories,1):
+                print(f"\nEntry #{idx}")
+                for key, value in entry.items():
+                    print(f"{key}: {value}")
 
         case "edit": # allows user to edit contracts
             number = input("Number of the contract to edit: ")
