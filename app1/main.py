@@ -3,7 +3,7 @@ print("Derail Vally Run Log Workbook")
 all_categories = [] # list to hold each round of the category data
 
 while True:
-    user_action = input("Type add, show, edit ,exit: ")
+    user_action = input("Type add, show, edit ,calculator ,exit: ")
     user_action = user_action.strip() # strips uncessory white spaces
     match user_action:
 
