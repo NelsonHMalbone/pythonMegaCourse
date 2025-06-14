@@ -67,7 +67,9 @@ while True:
 
         case "edit": # allows user to edit contracts
             number = input("Number of the contract to edit: ")
-            print(number)
+            existing_category_list = all_categories[number]
+            print(existing_category_list)
+
 
         case "exit":
             break

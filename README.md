@@ -80,3 +80,8 @@ did have to add a tuple to capture all the infomation to get and add titles of w
 worked on restructing the data and the list and placed them inside the added section
 in the all categories will capture everything from the category data, so tht the 
 the user can choice which entry to pick 
+
+#### 06-13
+working on a edit section still its been a few days. 
+before this commit we got a error a type error on line 70 which is just
+-existing_category_list because we are looking for a number in not a string its erroring because it dont see a number
