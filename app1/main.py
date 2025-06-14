@@ -66,7 +66,7 @@ while True:
                     print(f"{key}: {value}")
 
         case "edit": # allows user to edit contracts
-            number = input("Number of the contract to edit: ")
+            number = int(input("Number of the contract to edit: "))
             existing_category_list = all_categories[number]
             print(existing_category_list)
 
