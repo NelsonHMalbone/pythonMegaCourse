@@ -85,3 +85,5 @@ the user can choice which entry to pick
 working on a edit section still its been a few days. 
 before this commit we got a error a type error on line 70 which is just
 -existing_category_list because we are looking for a number in not a string its erroring because it dont see a number
+adjust the input for numbers to only accept nums or ints.
+prints out a dictionary with a key and value.
