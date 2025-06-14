@@ -12,7 +12,7 @@
   - input weight and length of each contract
   - prints out total weight and lenght including the trains being used
 - will need to add a batch so that if user is doing multiple jobs in one trip it will show in one whole group
-
+- will need to add a json file for the train parts.
 #### Day 1
 Day 1 is a building a todo app but instead of building a todo app
 im going to be building a app for a game called Derail Valley its a pc game about hauling frieght 
